@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="rest-ws-passing-a-list:war">
+      <output-path>$PROJECT_DIR$/target</output-path>
+      <root id="archive" name="rest-ws-test-invoker.war">
+        <element id="artifact" artifact-name="rest-ws-passing-a-list:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="rest-ws-passing-a-list:war exploded">
+      <output-path>$PROJECT_DIR$/target/rest-ws-test-invoker</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="rest-ws-passing-a-list" />
+          </element>
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.8" />
+            <element id="library" level="project" name="Maven: asm:asm:3.1" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-json:1.8" />
+            <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.1" />
+            <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+            <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1" />
+            <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.2" />
+            <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+            <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+            <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.1" />
+            <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.7.1" />
+            <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.7.1" />
+            <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.7.1" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.8" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.5.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.5.RELEASE" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/target/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="rest-ws-passing-a-list/web/Web" />
+      </root>
+    </artifact>
+  </component>
+  <component name="CodeStyleManager">
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true" />
+    <option name="CODE_STYLE_SCHEME" value="" />
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="rest-ws-passing-a-list" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-ws-passing-a-list" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="PRINT_LINE_NUMBERS" value="false" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+    <option name="OUTPUT_DIRECTORY" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+  </component>
+  <component name="JUnitProjectSettings">
+    <option name="TEST_RUNNER" value="UI" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="false" />
+    <option name="OPTION_NAVIGATOR" value="false" />
+    <option name="OPTION_INDEX" value="false" />
+    <option name="OPTION_SEPARATE_INDEX" value="false" />
+    <option name="OPTION_USE_1_1" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false" />
+    <option name="OPTION_DEPRECATED_LIST" value="false" />
+    <option name="OTHER_OPTIONS" />
+    <option name="HEAP_SIZE" />
+    <option name="OPEN_IN_BROWSER" value="false" />
+  </component>
+  <component name="JikesSettings">
+    <option name="DEBUGGING_INFO" value="true" />
+    <option name="DEPRECATION" value="true" />
+    <option name="GENERATE_NO_WARNINGS" value="false" />
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false" />
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false" />
+    <option name="IS_INCREMENTAL_MODE" value="false" />
+    <option name="IS_EMACS_ERRORS_MODE" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rest-ws-passing-a-list.iml" filepath="$PROJECT_DIR$/rest-ws-passing-a-list.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" />
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: aopalliance:aopalliance:1.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: asm:asm:3.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-client:1.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.8/jersey-client-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.8/jersey-client-1.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.8/jersey-client-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-core:1.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-json:1.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-json/1.8/jersey-json-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-json/1.8/jersey-json-1.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-json/1.8/jersey-json-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-server:1.8">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.8/jersey-server-1.8-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.xml.bind:jaxb-impl:2.2.3-1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-logging:commons-logging:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.activation:activation:1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.xml.bind:jaxb-api:2.2.2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.xml.stream:stax-api:1.0-2">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: junit:junit:3.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-asl/1.7.1/jackson-core-asl-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-jaxrs:1.7.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-jaxrs/1.7.1/jackson-jaxrs-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.7.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.7.1/jackson-mapper-asl-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.7.1/jackson-mapper-asl-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.7.1/jackson-mapper-asl-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jackson:jackson-xc:1.7.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-xc/1.7.1/jackson-xc-1.7.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.jettison:jettison:1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aop:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-asm:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-beans:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-expression:3.0.5.RELEASE">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: stax:stax-api:1.0.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
